@@ -15,7 +15,7 @@ header {background:transparent no-repeat center; box-shadow: 10px 3px 5px #96be8
 .hnav li {line-height:1em; padding:10px 10px; font-size:1.1em; font-weight:600;}
 .hnav li a {color:#000000; transition:0.1s ease;}
 .hnav li a:hover {color:#ffffff;}
-.hnav li a:visited {text-decoration:underline; color:fuchsia;}
+.hnav li a:visited {text-decoration:underline; color:#632c27;}
 .actived {background-color: #e56505;color: white;}
 .hlang {display:block; text-indent:0; text-align:left; margin:0 auto; max-width:100%; height:auto;}
 .navlogo {color:#29483d; letter-spacing:0.1em; font-size:2em; font-weight:600; text-shadow: 2px 1px 2px #34242c;} 
@@ -27,7 +27,7 @@ header {background:transparent no-repeat center; box-shadow: 10px 3px 5px #96be8
 .mnav_content {display:none; position:absolute; left:-20px; background:white no-repeat center; border-radius:0.3em; overflow:auto; width:auto; z-index:1;}
 .mnav_content a {color:#000000; padding:8px 20px; display:block; text-indent:0; text-align:left; transition:0.3s ease;}
 .mnav_content a:hover {background:#29483d no-repeat center; color:#000000;}
-.mnav_content a:visited {text-decoration:underline; color:fuchsia;}
+.mnav_content a:visited {text-decoration:underline; color:#632c27;}
 .show {display:block; text-indent:0; text-align:left;} 
 a:link {text-decoration:none; color:#000000;}
 a:visited {text-decoration:underline; color:purple;}
@@ -225,12 +225,10 @@ overflow:hidden;}
 }
 .dezv_disp {grid-area:dezv_disp; background:transparent no-repeat center; overflow:hidden; padding:10px; font-size:1.1em; text-align:left;}
 .dezv_disp_img {height:25vw; width:100%; position:relative;}
-.dezv_disp_img li {height:100%; width:100%; background:transparent no-repeat center; background-size:cover; position:absolute; opacity:0; animation:dezv_disp_anim 30s ease-in infinite;}
+.dezv_disp_img li {height:90%; width:100%; background:transparent no-repeat center; background-size:cover; position:absolute; opacity:0; animation:dezv_disp_anim 18s ease-in infinite;}
 .dezv_disp_img li:nth-child(1) {background:no-repeat center;}
 .dezv_disp_img li:nth-child(2) {background:no-repeat center; animation-delay:6s;}
 .dezv_disp_img li:nth-child(3) {background:no-repeat center; animation-delay:12s;}
-.dezv_disp_img li:nth-child(4) {background:no-repeat center; animation-delay:18s;}
-.dezv_disp_img li:nth-child(5) {background:no-repeat center; animation-delay:24s;}
 @keyframes dezv_disp_anim {0% {opacity:0; animation: ease-in;} 10% {opacity:1; animation: ease-out;} 96% {opacity:0}}
 .dezv {grid-area:dezv; overflow:auto; background:transparent no-repeat left; border:1px solid #ffffff; border-radius:10px; padding:10px; font-size:1.1em; text-align:left;}
 .dezv p {padding:0.9vw; font-size:1.1em; line-height:1em; text-align:left;}
